@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <p style="font-family:'宋体'">
+            用户名：<input type="text" value="张三">
+        </p>
+        <p>
+           密码&nbsp;&nbsp;：<input type="password" placeholder="请输入密码">
+        </p>
+        <p>
+            职&nbsp;位：
+            <!--checked表示默认选中-->
+            <!--label触发元素的扩大范围-->
+            <label>
+                <input type="radio" name="zhiwei" checked="checked">学生
+            </label>
+            <label>
+                <input type="radio" name="zhiwei">教师
+            </label>
+            <label>
+                <input type="radio" name="zhiwei">工作人员
+            </label>
+        </p>
+        <p>
+            爱&nbsp;好:
+            <input type="checkbox" name="hobby"> 画画
+            <input type="checkbox" name="hobby"> 游泳    
+            <input type="checkbox" name="hobby"> 打篮球
+            <input type="checkbox" name="hobby"> 跑步
+            <input type="checkbox" name="hobby"> 唱歌
+        </p>
+        <p>
+            猪王：
+            <!-- 默认选项selected -->
+            <select>
+                <option>边路小学生</option>
+                <option selected="selected">法师小学生</option>
+                <option>打野小学生</option>
+                <option>辅助小学生</option>
+                <option>射手大学生</option>
+            </select>
+        </p>
+        <p>
+            <!--style="resize: none;"取消缩放文本-->
+            自我介绍：
+            <textarea rows="4" cols="50" placeholder="请输入自我介绍" style="resize: none;"></textarea>
+        </p>
+        <input type="file">
+        <input type="reset">
+    </form>
+</body>
+</html>
